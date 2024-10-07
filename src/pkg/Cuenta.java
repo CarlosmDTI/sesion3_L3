@@ -3,24 +3,25 @@ package pkg;
 public class Cuenta {
 	
 	Double saldo;
+	
+	public Cuenta(Double saldo) {
+		this.saldo = saldo;
+	}
 
 	public Double getSaldo() {
-		return 500d;
+		return saldo;
 	}
 
 	public void setSaldo(Double saldo) {
 		this.saldo = saldo;
 	}
 
-	public void ingresar(int i) {
-		// TODO Auto-generated method stub
-		
-		
+	public void ingresar(double i) {
+		this.saldo += i;
 	}
 
-	public void retirar(int i) {
+	public void retirar(double i) {
 		// TODO Auto-generated method stub
-		
 		
 	}
 	
