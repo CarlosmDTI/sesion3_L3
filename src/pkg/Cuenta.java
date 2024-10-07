@@ -21,8 +21,8 @@ public class Cuenta {
 	}
 
 	public void retirar(double i) {
-		// TODO Auto-generated method stub
-		
+
+		this.saldo -= i;
 	}
 	
 }
